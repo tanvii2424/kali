@@ -1,0 +1,20 @@
+sudo apt-get upgrade 
+sudo apt install binutils    
+n FirFox
+https://www.snaptube.com/download-snaptube/
+https://apkpure.net/zarchiver-2025/ru.zdevs.zarchiver/download#google_vignette
+cd downloads
+ls
+cd
+wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.12.1.jar  
+ls
+mv apktool_2.12.1.jar apktool.jar
+sudo mv apktool apktool.jar /usr/local/bin 
+cd /usr/local/bin
+chmod +x *
+cd
+cd downloads
+ls
+chmod 777 snaptube
+apktool d -f snaptube
